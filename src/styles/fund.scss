@@ -1,0 +1,49 @@
+.riskInfoPer .el-table .el-table__body-wrapper {
+  overflow:hidden;
+  position: relative;
+
+}
+
+#invest_choose_data{
+  .el-table__body-wrapper {
+    overflow:hidden;
+    position: relative;
+  }
+}
+#selected_data{
+  .el-table__body-wrapper {
+    overflow:hidden;
+    position: relative;
+  }
+}
+
+.choice_fund .el-dialog {
+  width: 1040px;
+}
+
+.back_style {
+  .el-tabs--border-card {
+    background: #fff;
+    border: 1px solid #dcdfe6;
+    -webkit-box-shadow: 0 2px 4px 0 rgba(0,0,0,.12), 0 0 6px 0 rgba(0,0,0,.04);
+    box-shadow: 0 0px 0px 0 rgba(0,0,0,.12), 0 0 0px 0 rgba(0,0,0,.04);
+  }
+}
+
+.box_card_sty {
+  width: 366px;
+  margin: 0 auto;
+  border: 1px solid #dcdfe6;
+  background-color: #fff;
+  box-shadow: 0 0px 0px 0 rgba(0,0,0,.1);
+  color: #303133;
+  border-radius: 0px;
+
+  .el-card__header {
+    padding: 10px 15px 7px 15px
+  }
+
+  .el-card__body {
+    padding: 15px 20px 15px 20px;
+  }
+}

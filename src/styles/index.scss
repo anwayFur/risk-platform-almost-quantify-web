@@ -1,0 +1,246 @@
+@import './element-ui.scss';
+@import './mixin.scss';
+body {
+  -moz-osx-font-smoothing: grayscale;
+  -webkit-font-smoothing: antialiased;
+  text-rendering: optimizeLegibility;
+  font-family: Helvetica Neue, Helvetica, PingFang SC, Hiragino Sans GB, Microsoft YaHei, Arial, sans-serif;
+}
+
+html {
+  box-sizing: border-box;
+}
+
+*,
+*:before,
+*:after {
+  box-sizing: inherit;
+}
+
+a:focus,
+a:active {
+  font-size: 14px;
+  color: #69aaff;
+  outline: none;
+}
+
+a,
+a:focus,
+a:hover {
+  font-size: 14px;
+  cursor: pointer;
+  color: #69aaff;
+  text-decoration: none;
+}
+
+.clearfix {
+  &:after {
+    visibility: hidden;
+    display: block;
+    font-size: 0;
+    content: " ";
+    clear: both;
+    height: 0;
+  }
+}
+
+//vue router transition css
+.fade-enter-active,
+.fade-leave-active {
+  transition: all .2s ease
+}
+
+.fade-enter,
+.fade-leave-active {
+  opacity: 0;
+}
+
+//main-container全局样式
+.app-main{
+  min-height: 100%;
+  background-color: #f2f2f2;
+}
+
+.el-container {
+  display: inline;
+}
+
+.el-main {
+  overflow: initial;
+  padding: 0px;
+  text-align: center;
+  color: #333;
+  line-height: 160px;
+}
+
+.el-header, .el-footer {
+  background-color: #B3C0D1;
+  color: #333;
+  text-align: center;
+  line-height: 60px;
+}
+
+.app-container {
+  background-color: white;
+  width: 1200px;
+  margin: 0 auto;
+  min-height: 928px;
+  box-shadow: 0 4px 7px 1px rgba(188,200,209,.64);
+  border-radius: 3px;
+}
+
+
+
+.active_tab {
+  .el-tabs__item {
+    display: inline-block !important;
+  }
+  .el-tabs__header {
+    float: none !important;
+    margin-right: 0px;
+  }
+}
+
+.report_table_style {
+  .el-table__header {
+    width:100% !important;
+  }
+  .el-table__body {
+    width:100% !important;
+  }
+}
+
+.svg-icon {
+  width: 1em;
+  height: 1em;
+  vertical-align: -0.15em;
+  fill: currentColor;
+  overflow: hidden;
+}
+
+.el-menu-item {
+  font-size: 16px;
+  color: white !important;
+}
+.el-submenu__title {
+  font-size: 16px;
+  color: white !important;
+}
+
+.color_red {
+  color: red;
+}
+
+.color_black {
+  color: black;
+}
+
+.color_green {
+  color: #00cd00;
+}
+
+.el-table thead {
+  color: #3574f1;
+}
+
+.el-dialog {
+  .el-table td {
+    padding: 3px 0;
+  }
+
+  .el-table th {
+    padding: 6px 0;
+  }
+}
+
+
+.tab_style {
+  min-height: 300px;
+}
+
+.tip_title {
+  height: 41px;
+  overflow: hidden;
+  padding: 11px 0 42px 40px;
+  font-size: 18px;
+  color: #80b1ff;
+  margin-left: -10px;
+  margin-right: -10px;
+}
+
+.border_div {
+  padding: 10px 20px 15px 20px;
+  margin-bottom: 20px;
+  box-shadow: 0 -1px 10px 1px rgba(188, 200, 209, 0.64);
+  //border-radius: 15px;
+}
+
+.row_style {
+  padding-bottom: 10px;
+  padding-top: 10px;
+}
+
+.col_style {
+  text-align: left;
+}
+
+.filter-container {
+  padding-top: 5px;
+  padding-bottom: 5px;
+  .filter-item {
+    display: inline-block;
+    vertical-align: middle;
+    margin-bottom: 10px;
+  }
+}
+
+p.p_report {
+  text-indent: 2em;
+}
+
+p.p_sty_notice {
+  text-indent: 2em;
+}
+
+.row_table {
+  .el-table td, .el-table th {
+    padding: 5px 0;
+    background-color: #f9f9f9;
+  }
+}
+
+.el-message{
+  margin-top: 350px;
+}
+
+.el-dialog__wrapper.loginDialog .el-dialog{
+  width: 385px !important;
+  height: 412px;
+  margin-top: 24vh !important;
+}
+.el-dialog__wrapper.registerDialog .el-dialog{
+  width: 385px!important;
+  margin-top: 22vh !important;
+}
+
+.el-dialog__wrapper.verifyDialog .el-dialog{
+  width: 385px!important;
+  margin-top: 28vh !important;
+}
+
+.border_top_div {
+  padding: 10px 20px 0px 20px;
+  margin-bottom: 20px;
+  box-shadow: 0 -1px 10px 1px rgba(188, 200, 209, 0.64);
+}
+
+.top_tip {
+  margin-top: -15px;
+  margin-bottom: 15px;
+  padding-left: 25px;
+}
+
+.pagination-container {
+  text-align: center;
+  padding-top: 10px;
+}

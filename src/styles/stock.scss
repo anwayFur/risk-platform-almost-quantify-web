@@ -1,0 +1,298 @@
+
+.tab_pos_style.el-tabs--left .el-tabs__header.is-left {
+  margin-top: 20px;
+  margin-left: 30px;
+}
+
+.stat_style.el-table .cell {
+  text-align: center;
+  line-height: 15px;
+}
+
+.stat_style.el-table td div {
+  font-size: 22px;
+  color: #20a0ff;
+}
+
+.stat_style.el-table thead.is-group th {
+  background: #fafcff;
+}
+
+.stat_style .el-table__body-wrapper {
+  overflow: hidden;
+}
+
+.gdGialog .el-dialog {
+  width: 1060px;
+}
+
+.zygcGialog .el-dialog {
+  width: 960px;
+}
+
+
+.pagination {
+  text-align: center
+}
+
+.col_colors {
+  color: #3574f1
+}
+
+.tag_font {
+  font-size: 15px;
+}
+
+.showKeywords {
+  .keyword {
+    float: left;
+    margin-left: 5px;
+  }
+}
+
+.statis_style {
+  text-align: left;
+  font-size: 16px;
+}
+
+.tip_title {
+  height: 41px;
+  overflow: hidden;
+  padding: 11px 0 42px 40px;
+  font-size: 18px;
+  color: #80b1ff;
+  margin-left: -10px;
+  margin-right: -10px;
+}
+
+.stock_info {
+  margin-left: 30px;
+  margin-right: 30px;
+  margin-top: 10px;
+
+  .row_style {
+    padding-bottom: 10px;
+    padding-top: 10px;
+  }
+
+  .col_style {
+    text-align: left;
+  }
+
+  .sin_middle_right {
+    padding-top: 30px;
+    padding-bottom: 10px;
+    text-align: right;
+  }
+
+
+  .sin_data {
+    padding-top: 10px;
+    padding-bottom: 10px;
+    text-align: left;
+
+    div {
+      padding-left: 15px;
+      padding-right: 15px;
+    }
+  }
+
+}
+
+.gdGialog {
+  margin-top: -7vh;
+  margin-left: -15vh;
+  margin-right: -15vh;
+
+  .el-table td {
+    padding: 3px 0;
+  }
+
+  .el-table th {
+    padding: 6px 0;
+  }
+}
+
+
+.tag_font{
+  font-size:15px;
+}
+
+.col_colors{
+  color:#3574f1
+}
+.pagination {
+  text-align: center
+}
+
+.tab_style {
+  min-height: 300px;
+}
+.showKeywords{
+  .keyword{
+    float:left;
+    margin-left: 5px;
+  }
+}
+
+.statis_style {
+  text-align:left;
+  font-size: 16px;
+}
+
+.div_top {
+  padding-left: 10px;
+  padding-right: 10px;
+  margin-left: -10px;
+  margin-right: -10px;
+
+  .pad_div {
+    background-size: 100% 100%;
+    -moz-background-size: 100% 100%;
+    padding-left: 50px;
+    padding-right: 50px;
+  }
+
+  .sin_top {
+    font-size: 24px;
+  }
+
+  .value_now {
+    font-size: 42px;
+  }
+
+  .value_up {
+    padding-left: 12px;
+  }
+
+  .update_at {
+    padding-top: 10px;
+    padding-bottom: 10px;
+  }
+
+  .sin_middle_right {
+    padding-top: 50px;
+    text-align: right;
+    margin-top: 10px;
+  }
+}
+
+.pro_style_1 {
+  .el-progress-bar__outer {
+    background-color: #00cd00;
+  }
+}
+
+.pro_style_2 {
+  .el-progress-bar{
+    .el-progress-bar__outer {
+      background-color: rgba(255,255,255,0);
+    }
+  }
+}
+
+.pro_style_2.el-progress.is-exception .el-progress-bar__inner {
+  text-align: center;
+  transform: scale(0.80);
+  transform-origin:0 0;
+  -webkit-transform: scale(0.80); /* Safari 和 Chrome */
+  -webkit-transform-origin:0 0;   /* Safari 和 Chrome */
+  .el-progress-bar__innerText {
+    color: #060bfd;
+  }
+}
+
+.dialog_style {
+  .el-dialog {
+    width: 960px;
+    margin-top: 3vh !important;
+  }
+}
+
+.dialog_inner_style {
+  .el-dialog {
+    width: 960px;
+    margin-top: 25vh !important;
+  }
+}
+
+.report_tab {
+  .el-form-item__label {
+    color: #3a64b9;
+    line-height: 40px;
+  }
+
+  .demo-table-expand {
+    font-size: 0;
+  }
+  .demo-table-expand label {
+    width: 180px;
+    color: #0b8be6;
+    text-align: left!important;
+    padding-right: 20px;
+  }
+  .demo-table-expand .el-form-item {
+    margin-right: 0;
+    margin-bottom: 0;
+    width: 50%;
+  }
+  .el-form--inline .el-form-item__content {
+    margin-left: -36px;
+  }
+}
+
+.el_tab_rank {
+  .el-tabs__item {
+    padding: 0 10px;
+  }
+}
+.el_tab_rank.el-tabs--border-card {
+  margin-left: 10px;
+}
+
+.checkbox_top {
+  label.el-checkbox {
+    padding-top: 8px!important;
+    padding-bottom: 15px;
+  }
+}
+
+.time_style {
+  .el-input__inner {
+    height: 36px!important;
+  }
+}
+
+.height_search {
+  .filter-container {
+    .el-input__inner {
+      height: 36px!important;
+    }
+  }
+}
+
+.row_center {
+  text-align: center;
+}
+
+.el_tab_rank  {
+  .el-tabs__content {
+    padding: 15px 15px 13px 15px;
+  }
+}
+
+.finance-table-expand {
+  font-size: 0;
+}
+
+.finance-table-expand label {
+  width: 350px;
+  color: #3c3f41;
+  padding-left: 80px;
+}
+
+.finance-table-expand .el-form-item {
+  margin-right: 0;
+  margin-bottom: 0;
+  width: 50%;
+}
